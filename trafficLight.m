@@ -12,23 +12,23 @@ rec2_y=[4 4 0 0 4];
 plot(rec2_x,rec2_y);
 fill(rec2_x,rec2_y,'k');
 
-%circles
+%circles common
 xCenter = 5;
 radius = 0.8;
 theta = 0 : 0.01 : 2*pi;
 x = radius * cos(theta) + xCenter;
 
-%circ1
+%cir1
 yCenter1 = 9;
 y1 = radius * sin(theta) + yCenter1;
 plot(x, y1);
 fill(x,y1,[0.6350 0.0780 0.1840]);
-%circ2
+%cir2
 yCenter2 = 7;
 y2 = radius * sin(theta) + yCenter2;
 plot(x, y2);
 fill(x,y2,[0.8 0.6940 0.1250]);
-%circ3
+%cir3
 yCenter3 = 5;
 y3 = radius * sin(theta) + yCenter3;
 plot(x, y3);
